@@ -1,0 +1,40 @@
+$color-success: #26de81;
+
+* {
+  background-color: #333;
+  font-family: 'Courier New', Courier, monospace;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+  border: 3px solid rgba(255, 255, 255, 0.329);
+}
+.time {
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.buttons {
+  margin-top: 30px;
+}
+.button {
+  padding: 15px;
+  margin-left: 15px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background: $color-success;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: 0.4s;
+
+  &:hover {
+    background: #26de826b;
+  }
+}
